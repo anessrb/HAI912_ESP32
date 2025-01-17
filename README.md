@@ -1,36 +1,39 @@
+# Projet ESP32 -  HAI912I 
+
 Un projet simple pour mesurer la température et la lumière avec un petit ordinateur ESP32. Il peut contrôler une lumière LED et vous pouvez le surveiller depuis votre téléphone ou ordinateur.
-Ce que fait le projet
 
-Mesure la température de la pièce
-Mesure la luminosité (la quantité de lumière)
-Allume ou éteint une LED automatiquement selon les mesures
-Affiche les informations sur un petit écran
-Permet de tout contrôler depuis une page web
+## Ce que fait le projet
 
-Ce dont vous avez besoin
+- Mesure la température de la pièce
+- Mesure la luminosité (la quantité de lumière)
+- Allume ou éteint une LED automatiquement selon les mesures
+- Affiche les informations sur un petit écran
+- Permet de tout contrôler depuis une page web
 
-Une carte ESP32 TTGO (avec écran)
-Un capteur de température
-Un capteur de lumière
-Une LED verte
-Quelques résistances
+## Ce dont vous avez besoin
 
-Comment l'utiliser
+- Une carte ESP32 TTGO (avec écran)
+- Un capteur de température
+- Un capteur de lumière
+- Une LED verte
+- Quelques résistances
 
-Branchez les capteurs comme montré sur l'image
-Mettez vos codes WiFi dans le fichier config.h
-Téléversez le programme
-Regardez l'écran pour voir l'adresse web
-Ouvrez la page web pour contrôler l'appareil
+## Comment l'utiliser
 
-Deux modes de fonctionnement
+1. Branchez les capteurs comme montré sur l'image
+2. Mettez vos codes WiFi dans le fichier `config.h`
+3. Téléversez le programme
+4. Regardez l'écran pour voir l'adresse web
+5. Ouvrez la page web pour contrôler l'appareil
 
-Mode température : la LED s'allume quand il fait trop chaud
-Mode lumière : la LED s'allume quand il fait trop sombre
+## Deux modes de fonctionnement
 
-Pour les développeurs
+1. Mode température : la LED s'allume quand il fait trop chaud
+2. Mode lumière : la LED s'allume quand il fait trop sombre
+
+## Pour les développeurs
+
 La page web permet de :
-
-Voir les mesures en direct
-Allumer/éteindre la LED
-Changer le mode de fonctionnement
+- Voir les mesures en direct
+- Allumer/éteindre la LED
+- Changer le mode de fonctionnement
